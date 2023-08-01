@@ -4,7 +4,7 @@
   "description": "COmputer SHop",
   "dependencies": {
     "@sap/audit-logging": "^3",
-    "@sap/cds": "^4",
+    "@sap/cds": "^7.1.1",
     "@sap/hana-client": "^2",
     "debug": "^4.3",
     "express": "^4",
