@@ -10,7 +10,8 @@
     "debug": "^4.3",
     "express": "^4",
     "hdb": "^0.19.3",
-    "passport": "^0.6.0"
+    "passport": "^0.6.0",
+    "@sap/cds-dk": "^7"
   },
   "devDependencies": {
     "sqlite3": "5.0.0"
@@ -18,7 +19,8 @@
   "scripts": {
     "start": "npx cds run"
   },
-  "cds": {
+
+  "cds": { 
     "requires": {
       "db": {
         "kind": "hana"
@@ -30,7 +32,7 @@
         "[production]": {
           "strategy": "JWT"
         }
-      }
+      }   
     },
     "hana": {
       "deploy-format": "hdbtable"
