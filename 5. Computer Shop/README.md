@@ -1,5 +1,5 @@
 # CAPM1_ComputerShop
-> Computer Shop CRUD with Oauth2.0
+> Computer Shop CRUD with OAuth2.0
 
 ## How to run the Project
 1. Go to BAS
